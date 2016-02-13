@@ -23,6 +23,16 @@ void createArray(){
     // 使用NSLog答应数组,其实是打印数组对象中的description方法的返回值,数组中的description方法其实是调用的是每一个元素中的description方法
     // 一般使用格式符%@,打印对象,其实都是打印对象的description方法
     NSLog(@"%@", arr);
+    
+    // 数组还可以使用字面量的方式创建
+    
+    arr = @[@"aaa", @"bbb", @"ccc"];
+    
+    NSLog(@"字面量数组: %@", arr);
+    
+    // 获取数组某一元素, 可以直接使用数组下标访问
+    NSLog(@"1号元素: %@", arr[1]);
+    NSLog(@"1号元素objectAtIndex: %@", [arr objectAtIndex:1]);
 }
 
 // 数组遍历方法
@@ -59,7 +69,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         
-        // createArray();
+        createArray();
         
         NSArray *arr = [[NSArray alloc] initWithObjects:@"abc", @"hello", @"good", nil];
         

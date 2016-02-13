@@ -44,7 +44,7 @@
 @property NSString *name;
 @property NSUInteger salary;
 
-// 使用@property 设置的属性,子类不会继承
+// 使用@property 设置的属性,子类不会继承,都是私有属性
 
 - (void)sayHi;
 

@@ -8,6 +8,9 @@
 
 /**
     使用 property 注意,自动生成的为private变量,子类无法访问.
+ 
+  // 使用@property 设置的属性,子类不会继承,都是私有属性
+  // 如果没有使用synthesize 指定,那么就会生成带下划线的属性
  */
 
 #import <Foundation/Foundation.h>
