@@ -36,12 +36,29 @@
  2）第二种实现延展的方式是延展没有独立的头文件,在类的实现文件.m中声明和实现延展,
     这种方法可以很好的实现方法的私有,因为在OC中是不能引入.m的文件的。
  
+ 
+ @interface Person ()
+ 
+ // 这里使用@property属性,直接在.m文件中,实用类扩展,默认是不会生成setter,getter方法的,所以这个变量就变成了私有,外届无法访问
+ // 关键: 控制@property是否生成setter,getter方法; OC它规定只要在.m文件并且是在类扩展(匿名分类)中声明的变量都不能生成setter,getter方法
+ // 这样OC就实现了私有变量的封装, 同时规定其申明的方法,对象也无法访问, 只能在其内部通过self关键字调用
+ @property (nonatomic, assign) int score;
+ 
+ - (int)getedScore;
+ 
+ @end
+
+ 注意:   定义在扩展类中而且是直接定义在.m文件的@property属性,是自动不会展开setter,getter方法,所以外界就无法访问
+        除非手动实现setter,getter方法
+        而如果扩展类(匿名分类)是定义在.h文件中那么@property就会自动生成setter,getter.对象就可以直接通过dot语法访问
+ 
  */
 
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "Person_ext.h"
+#import "Student.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -55,6 +72,29 @@ int main(int argc, const char * argv[]) {
         [p hello];
         
         [p sayAge];
+        
+        //[p getedScore];
+        
+        Student *stu = [Student new];
+        stu.age = 17;
+        stu.height = 178.00;
+        //stu.score = 12;
+        [stu sayAge];
+        
+        // [stu getedScore];
+        // stu.score;
+        
+        [stu print];
+        
+        // 可以设置luck,
+        stu.luck = @"luck,,,";
+        
+        [stu valueForKey:@"score"];
+        
+        NSLog(@"end...");
+        
+        
+        
     }
     return 0;
 }

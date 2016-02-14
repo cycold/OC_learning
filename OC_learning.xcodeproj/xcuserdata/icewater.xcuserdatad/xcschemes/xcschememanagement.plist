@@ -9,6 +9,41 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>@property参数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>ARC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>Blocks.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>Category.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>KVC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>KVC2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>KVO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
 		<key>MSMutableString.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -69,14 +104,159 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>OC内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Protocol.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>关于OC中继承.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>单例.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>多对象内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>多态.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>常用结构体.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>指向函数的指针.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>浅拷贝.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>深拷贝.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>类扩展.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>通知中心.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FC0FE8E61C6C530C00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE8F71C6C646D00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9281C6C9DDA00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9391C6CA6F200593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE94A1C6CB10E00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9551C6CB6A100593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9661C6CBD1F00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9711C6CBDA700593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9AC1C6F114700593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9B71C6F2CE400593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9C71C6F3B9000593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9D81C6F4B0A00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9E61C6F57C900593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FE9F41C6F63BD00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FEA051C6F6EB900593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC0FEA101C6F7BBA00593B24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC7EFF401C6FA9E80075340B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC7EFF7C1C710DF50075340B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FCEDBC971C69CD1900EC8E2C</key>
 		<dict>
 			<key>primary</key>
