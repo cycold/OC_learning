@@ -27,6 +27,14 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", dict);
         
         
+        // 字典对象的字面量的创建方法 , 注意数字18需要转成OC对象,前面使用@符号就直接转为NSSNumer对象了
+        NSDictionary *d1 = @{@"name": @"张三", @"age": @18, @"height": @173};
+        NSDictionary *d2 = @{@"name": @"李四", @"age": @28, @"height": @178};
+        NSDictionary *d3 = @{@"name": @"王五", @"age": @19, @"height": @185};
+        
+        NSLog(@"name: %@ age: %@ height: %@", d1[@"name"], d2[@"age"], d3[@"height"]);
+        
+        
         // 字典的遍历
         // 1. 使用枚举器法遍历,分为值和键的遍历
         NSEnumerator *enumer = [dict keyEnumerator]; // keyEnumerator 键的遍历, 按照存储的顺序遍历
